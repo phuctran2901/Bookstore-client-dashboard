@@ -170,7 +170,7 @@ function EditProfile(props) {
                                         <h6 className="mb-0">Phone</h6>
                                     </div>
                                     <div className="col-sm-9 text-secondary">
-                                        <input type="text" className="form-control" onChange={handleOnchangeForm} value={data.phone} />
+                                        <input type="text" className="form-control" onChange={handleOnchangeForm} value={data.phone} name="phone" />
                                     </div>
                                 </div>
                                 <div className="row mb-3">
